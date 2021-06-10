@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Population Growth</title>
+</head>
+<body>
+
+    <!-- In a small town the population is p0 = 1000 at the beginning of a year. The population regularly increases by 2 percent per year and moreover 50 new inhabitants per year come to live in the town. How many years does the town need to see its population greater or equal to p = 1200 inhabitants? -->
+
+
+    <header id="header">
+        <h1>Growth of Population</h1>
+        <p>This application will calculate how many years it takes for the population of a given city / country to reach a given level. Specify four values: </p>
+        <ul id="header-list">
+            <li>starting size of the population</li>
+            <li>percentage by how much the population grows each year</li>
+            <li>how many people come to the city/country from outside</li>
+            <li>and what population level you want to be reached</li>
+        </ul> 
+    </header>
+
+    <form id="forms">
+
+        <div id="forms-container">
+            <label for="pop-now">What is the population of the town now?</label>
+            <input id="pop-now" type="number">
+            <label for="pop-inc">How much the city's population increases every year?</label>
+            <input id="pop-inc" type="number">
+            <label for="new-hab">How many new inhabitants per year come to live in the town</label>
+            <input id="new-hab" type="number">
+            <label for="pop-final">What is the final population size?</label>
+            <input id="pop-final" type="number">
+        </div>
+        <input class="submit-button" type="submit" name="Submit" id="pop-submit">
+    </form>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+
+    </script>
+</body>
+</html>

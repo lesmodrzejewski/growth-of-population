@@ -1,0 +1,75 @@
+/** @format */
+
+@import url('https://fonts.googleapis.com/css2?family=Mina&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mina';
+  min-width: 500px;
+  height: 100vh;
+  background-color: aquamarine;
+}
+
+#header {
+  height: 20vh;
+  width: 70%;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#header-list li {
+  list-style: circle;
+}
+
+#forms {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 250px;
+  padding: 0 4rem;
+  width: 100%;
+  height: 40%;
+}
+
+#forms-container {
+  width: 80%;
+  height: 70%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0.5rem;
+}
+
+label {
+  text-align: left;
+}
+
+input {
+  font-size: 1rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.submit-button {
+  width: 80%;
+  height: 15%;
+  border-radius: 10px;
+}
+
+#result {
+  font-size: 2rem;
+  position: absolute;
+  top: 550px;
+  width: 100%;
+  text-align: center;
+}
